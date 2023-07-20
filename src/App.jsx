@@ -7,7 +7,7 @@ import Button from './components/utility/Button';
 import SaveAltIcon from '@mui/icons-material/SaveAlt';
 import QuestionAnswerIcon from '@mui/icons-material/QuestionAnswer';
 import ChevronRightSharpIcon from '@mui/icons-material/ChevronRightSharp';
-
+import Projects from './components/projects/Projects';
 function App() {
   const [show, setshow] = useState(false)
   const style = getComputedStyle(document.body)
@@ -27,6 +27,7 @@ function App() {
     </div>
     
     </div>
+    <Projects></Projects>
     </>
   )
 }
