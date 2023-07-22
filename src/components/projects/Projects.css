@@ -1,13 +1,15 @@
-.projects__main{
+.section__main{
     width: 80%;
     margin: 0 auto;
+    /* border: 1px solid red; */
+    text-align: start;
 }
 .projects{
     display: flex;
     flex-direction: column;
     gap: 2rem;
 }
-.project__main__heading{
+.section__main__heading{
     cursor: pointer;
     color: var(--red-color);
     text-align:center ;

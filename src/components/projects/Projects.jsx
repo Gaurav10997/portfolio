@@ -3,9 +3,9 @@ import Project from './Project'
 import "./projects.css"
 function Projects() {
   return (
-        <div className="projects__main">
+        <div className="section__main">
             <br />
-            <h1 className='project__main__heading'>Projects</h1>
+            <h1 className='section__main__heading'>Projects</h1>
             <br />
             <div className="projects">
             <Project />

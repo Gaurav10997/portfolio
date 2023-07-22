@@ -1,0 +1,72 @@
+.contact__main{
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    /* border: 1px solid red; */
+    height: 50vh;
+}
+.form__details{
+    display: grid;
+    gap: 1rem;
+    grid-template-columns: repeat(2,1fr);
+    margin-left: auto;
+    margin-right: auto; */
+    border-radius: 10px;
+}
+
+.textarea__description{
+    grid-column-start: 1;
+    grid-column-end: 3;
+
+}
+
+button,
+fieldset,
+input,
+legend,
+select,
+textarea {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  background-color: transparent;
+  font: 600;
+
+  border-radius: 5px;
+  font-size: 1.5rem;
+  border: none;
+  padding: 15px;
+  margin: 0;
+  box-sizing: border-box;
+  background-color: #201f22;
+  outline: 0;
+  color: var(--white-color);
+  border: 1px solid rgb(245, 224, 224);
+}
+textarea:focus , input:focus{
+    outline: none;
+    border: 2px solid var(--red-color);
+    border-radius: 3px;
+    color: var(--white-color);
+}
+
+.section__main__paragraph{
+    text-align: left;
+    margin: 25px 0;
+    font-size: 1.4rem;
+}
+.section__inner__main{
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+/* input:focus{
+  
+} */
+@media screen and (max-width: 1000px) {
+    .form__details{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+  }

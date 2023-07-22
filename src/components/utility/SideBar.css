@@ -44,6 +44,38 @@
     font-size: large;
 }
 
+/* skills */
+.skill__main{
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+.skill__box{
+    width: 75%;
+    height: 5vh;
+    margin: 10px 0;
+    border-radius: 4px;
+    background-color: #201f22;
+}
+.skill__level{
+  background-color: #f67a56;
+  height: 5vh;
+  border-radius: 4px;
+}
+
+
+/* certificate */
+.certificate{
+    display: flex;
+    justify-content: start;
+    flex-direction: column;
+    line-height: 2.4rem;
+}
 @keyframes slide {
     0% {
         left: 0;
@@ -78,14 +110,14 @@
     display: flex;
     justify-content: space-around;
     align-items: center;
-    width: 50%;
-    min-width: 5em;
     border-radius:5px;
     cursor: pointer;
     padding: 0.75em;
+    gap: 1rem;
 }
 .button__container{
     display: flex;
+    justify-content: center;
     width: 500px;
     margin-left: auto;
     margin-right: auto;

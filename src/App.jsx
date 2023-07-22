@@ -8,6 +8,9 @@ import SaveAltIcon from '@mui/icons-material/SaveAlt';
 import QuestionAnswerIcon from '@mui/icons-material/QuestionAnswer';
 import ChevronRightSharpIcon from '@mui/icons-material/ChevronRightSharp';
 import Projects from './components/projects/Projects';
+import Certification from './components/certification/Certification';
+import Contact from './components/contact/Contact';
+import Skillsection from './components/skills/Skillsection';
 function App() {
   const [show, setshow] = useState(false)
   const style = getComputedStyle(document.body)
@@ -28,6 +31,10 @@ function App() {
     
     </div>
     <Projects></Projects>
+    <Certification />
+    <Skillsection />
+    <Contact></Contact>
+    
     </>
   )
 }

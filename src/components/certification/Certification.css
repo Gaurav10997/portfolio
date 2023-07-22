@@ -1,0 +1,8 @@
+.section__main__inner{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    width: 80%;
+    margin-left: auto;
+    gap: 2rem;
+    margin-right: auto;
+}
