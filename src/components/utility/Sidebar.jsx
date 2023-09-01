@@ -4,7 +4,7 @@ import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import GitHubIcon from '@mui/icons-material/GitHub';
 import ChatBubbleOutlineSharpIcon from '@mui/icons-material/ChatBubbleOutlineSharp';
 import PlayArrowSharpIcon from '@mui/icons-material/PlayArrowSharp';
-import "./Sidebar.css"
+import "./SideBar.css"
 function Sidebar({toggleShow}) {
   const navigations = ["summary", "projects" ,"skills","certification","getInTouch" ]
   return (
