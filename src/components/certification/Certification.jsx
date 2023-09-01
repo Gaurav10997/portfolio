@@ -1,6 +1,5 @@
-import React from 'react'
 import "./Certification.css"
-import Certificate from '../utility/certificate'
+import Certificate from '../utility/Certificate'
 function Certification() {
   return (
     <>
