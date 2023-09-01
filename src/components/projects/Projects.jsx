@@ -1,6 +1,5 @@
-import React from 'react'
 import Project from './Project'
-import "./projects.css"
+import "./Projects.css"
 function Projects() {
   return (
         <div className="section__main">
