@@ -6,7 +6,7 @@ import ChatBubbleOutlineSharpIcon from '@mui/icons-material/ChatBubbleOutlineSha
 import PlayArrowSharpIcon from '@mui/icons-material/PlayArrowSharp';
 import "./sideBar.css"
 function Sidebar({toggleShow}) {
-  const navigations = ["Summary", "Projects" ,"Mini Projects","Skills","Education","Certification","Get In Touch","Contact Details" ]
+  const navigations = ["summary", "projects" ,"skills","certification","getInTouch" ]
   return (
     <div className='sidebar'>
         <div className='sidebar__menu'>
@@ -14,11 +14,11 @@ function Sidebar({toggleShow}) {
             <PlayArrowSharpIcon fontSize='small'  onClick={toggleShow}/> 
         </div>
         <ul className="nav">
-            {navigations.map((navigation,index)=><li key={index}>{navigation}</li>)}
+            {navigations.map((navigation,index)=><a className="navigation__links" key={index} href={`#${navigation}`}>{navigation}</a>)}
         </ul>
         <hr />
         <div className="sociallinks">
-        <MailOutlineIcon  />
+          <a href=""><MailOutlineIcon  /></a>
         <LinkedInIcon />
         <GitHubIcon />
         <ChatBubbleOutlineSharpIcon />

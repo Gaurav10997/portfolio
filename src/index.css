@@ -17,7 +17,16 @@
 
 
   /* font-size */
+`
+}
 
+html{
+  scroll-behavior: smooth;
+}
+
+a{
+  text-decoration: none;
+  
 }
 
 

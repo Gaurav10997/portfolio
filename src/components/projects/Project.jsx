@@ -6,7 +6,7 @@ import  "./Projects.css"
 function Project() {
   return (
     <>
-    <div className="project__main">
+    <div className="project__main" id="projects">
             <img className="left__side" src="https://cdn.hashnode.com/res/hashnode/image/upload/v1680501755888/e5a6ba25-7877-4a85-98ee-fcd0bfaacf31.png" alt="" width={350} />
         <div className="right___side">
             <h2 className="heading">E-commerce app</h2>

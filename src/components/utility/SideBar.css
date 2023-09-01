@@ -130,3 +130,8 @@
     display: none;
   }
   }
+
+
+.navigation__links{
+    text-transform: capitalize;
+}

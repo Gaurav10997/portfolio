@@ -7,7 +7,7 @@ function Contact() {
   console.log()
   return (
     <>
-    <div className="section__main">
+    <div className="section__main" id='getInTouch' >
       <div className="section__inner__main">
       <h1 className='section__main__heading'>GET IN TOUCH</h1>
       <p className='section__main__paragraph'>Reach out to me today and let's start a conversation about your project or inquiry!
