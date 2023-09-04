@@ -10,7 +10,7 @@ function Techname({name}) {
     
   return (
     <div style={styles}>
-      <h4 className='techname'>Name</h4>
+      <h4 className='techname'>{name}</h4>
     </div>
   )
 }

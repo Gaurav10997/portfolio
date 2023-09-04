@@ -1,4 +1,3 @@
-import React from 'react'
 import "./SideBar.css"
 function Skill({name,  percent}) {
   return (
@@ -9,7 +8,6 @@ function Skill({name,  percent}) {
         </div>
       </div>
     </div>
-   
   )
 }
 

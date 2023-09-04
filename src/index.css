@@ -1,5 +1,6 @@
 :root {
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   color-scheme: light dark;
 
   background-color: var(--bg-color);
@@ -7,23 +8,40 @@
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   -webkit-text-size-adjust: 100%;
-
-  /* color */
   --bg-color:#18181b;
   --red-color:#f65555;
   --white-color:#fafafa;
   --orange-color:#f68956;
   color: var(--white-color);
-
-
-  /* font-size */
 `
 }
+
+::-webkit-scrollbar {
+  width: 5px; 
+  height: 2px;
+}
+
+
+::-webkit-scrollbar-thumb {
+  background-color: var(--red-color) ; /* Change "verticalColor" to the color you want */
+}
+
+::-webkit-scrollbar-thumb:horizontal {
+  background-color: transparent; /* Change "horizontalColor" to the color you want */
+}
+
+::-webkit-scrollbar-track {
+  background: #292a2d; /* Change to the color you want */
+}
+
 
 html{
   scroll-behavior: smooth;
 }
 
+@media only screen and (width<= 1100px ) {
+      
+  }
 a{
   text-decoration: none;
   

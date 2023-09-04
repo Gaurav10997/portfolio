@@ -1,9 +1,21 @@
-import React from 'react'
+import React, { useEffect,useState } from 'react'
+import NavScrollBar from './NavScrollBar'
 import "./Home.css"
 function Home() {
+
+  useEffect(()=>{
+    const temp = window.addEventListener(("scroll"),()=>{
+      const navbar = document.querySelector("nav")
+      navbar.classList.toggle("navbar__main__sticky" , window.scrollY>0)
+    })
+  
+  })
+
   return (
     <>
-    <nav>
+    <NavScrollBar></NavScrollBar>
+    <nav className='navbar__main' >
+        
         <div>
           <h1 className='name'>GauravMandal<span>.</span></h1>
         </div>

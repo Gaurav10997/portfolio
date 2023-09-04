@@ -1,0 +1,39 @@
+
+.projects__main{
+    display: flex;
+    height: 17em;
+    flex-direction: column;
+    border: 2px solid #52525b;
+    border-radius: 5px;
+    padding: 20px;
+    justify-content: space-between;
+    cursor: pointer;
+}
+.projects__main:hover{
+    border:2px solid var(--red-color);
+    background-color: #1f1f22;
+    transition-property: all;
+    transition-delay: 0.1s;
+    transition-timing-function: ease-in-out;
+}
+
+.projects__main__upper{
+    height: 60%;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+
+}
+.projects__main__lower{
+    display: flex;
+    justify-content: space-between;
+}
+.projects__main__lower__icons{
+   display: flex;
+   gap: 1em;
+}
+.techstacks{
+    display: grid;
+    gap: 1rem;
+    grid-template-columns: repeat(4,1fr);
+}
