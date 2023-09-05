@@ -29,7 +29,9 @@ function Home() {
         
           <div className="bigger__circle"></div>
           <div className="smaller__circle"></div>
-          <div className="circle_image"></div>
+          <div className="circle_image">
+            <img src={"https://img.freepik.com/free-vector/hacker-operating-laptop-cartoon-icon-illustration-technology-icon-concept-isolated-flat-cartoon-style_138676-2387.jpg?w=360"} alt="" width={300}  style={{borderRadius:150}}    />
+          </div>
         </div>
 
         <div className="details">

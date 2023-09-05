@@ -22,10 +22,10 @@ function Project({title,images,github,url,description,techStackUsed}) {
        </div>
        <div className="projects__main__lower">
         <div className="projects__main__lower__icons">
-           <a href="" >
+           <a href={github} >
             <GitHubIcon />
            </a>
-           <a href="">
+           <a href={url} target='_blank' rel="noreferrer">
              <OpenInNewIcon />
            </a>
         </div>

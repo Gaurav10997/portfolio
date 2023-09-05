@@ -70,3 +70,19 @@ textarea:focus , input:focus{
         justify-content: center;
     }
   }
+
+
+
+
+  /* // Details */
+
+
+  .socials__links{
+    margin-top: 50px;
+    margin-left: 60px;
+    width: 45%;
+    display: flex;
+    justify-content: space-around;
+    color: var(--red-color);
+    margin-bottom: 100px;
+  }

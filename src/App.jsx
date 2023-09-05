@@ -11,11 +11,15 @@ import Projects from './components/projects/Projects';
 import Certification from './components/certification/Certification';
 import Contact from './components/contact/Contact';
 import Skillsection from './components/skills/Skillsection';
+import Detail from './components/contact/Detail';
 
 import SaveAltIcon from '@mui/icons-material/SaveAlt';
 import QuestionAnswerIcon from '@mui/icons-material/QuestionAnswer';
 
 import BounceLoader  from "react-spinners/BounceLoader"
+import VisibilityIcon from '@mui/icons-material/Visibility';
+
+
 
 function App() {
   const {red,black} = color
@@ -41,19 +45,24 @@ function App() {
 :<>
     <div>
     <Home></Home>
-    <div className='sideBar__main'>
+    {/* <div className='sideBar__main'>
         { show && <Sidebar toggleShow={toggleShow} ></Sidebar>}
         { !show && <CloseButton toggleShow={toggleShow} />}
-    </div>
+    </div> */}
     <div className='button__container'>
-    <Button buttonName={"Download CV"} buttonColor={black} ButtonIcon={SaveAltIcon} buttonBackgroundColor={red} />
-    <Button buttonName={"Contact Me"} buttonColor={red} ButtonIcon={QuestionAnswerIcon} buttonBackgroundColor={black} />
+    <Button buttonName={"VIEW CV"} buttonColor={black} ButtonIcon={VisibilityIcon} buttonBackgroundColor={red} />
+    <a href="mailto:avdhika@gmail.com"> <Button buttonName={"Contact Me"} buttonColor={red} ButtonIcon={QuestionAnswerIcon} buttonBackgroundColor={black} /></a>
+   
 </div>
 </div>
 <Projects></Projects>
 <Certification />
 <Skillsection />
-<Contact></Contact>
+{/* <Contact></Contact> */}
+
+  {/* <Detail></Detail> */}
+
+
 </>
     }
        
